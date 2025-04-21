@@ -49,7 +49,7 @@ body {
   max-width: 384px;
   background-color: var(--color-grey-800);
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: clamp(1.5rem, -1.1446rem + 13.2231vw, 2.5rem);
   margin: auto;
   text-align: center;
   display: grid;
